@@ -1,24 +1,64 @@
-# Compiled class file
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp.js
+
+# Java
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
 *.zip
 *.tar.gz
 *.rar
+target/
+build/
+bin/
+.classpath
+.project
+.settings/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# IDE-specific
+# Eclipse
+*.metadata/.lock
+*.metadata/.bak
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.idv
+*.ipk
+*.ipp
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# WebStorm
+*.idea/
+*.iml
+*.ipr
+*.iws
+
+# React
+*.log
+*.map
+*.DS_Store
+.DS_Store
+
+# Other
+*.swp
+*.bak
+*.tmp
+*.old
+*.sync
+*.lock
