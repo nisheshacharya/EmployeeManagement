@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import AuthService from '../services/AuthService';
 
 const Login = () => {
@@ -53,7 +53,7 @@ const Login = () => {
                 </div>
                 <button className="btn btn-primary btn-block">Login</button>
             </form>
-            <p>Do not have an account yet? Click to signup.</p>
+            <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
         </div>
     );
 };
